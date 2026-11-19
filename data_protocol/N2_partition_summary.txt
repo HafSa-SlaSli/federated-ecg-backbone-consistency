@@ -1,0 +1,57 @@
+STEP 6.5.1 - N2 STRONG NON-IID PATIENT-LEVEL PARTITION
+======================================================================
+
+Seed: 42
+Clients: 5
+Total PTB-XL ECGs: 21799
+Train ECGs: 17418
+Usable train ECGs: 17084
+Excluded train ECGs: 334
+Unique patients: 14823
+
+Dominant hospital classes:
+H1: MI
+H2: STTC
+H3: CD
+H4: HYP
+H5: NORM
+
+Hospital ECG distribution:
+hospital
+H1    4603
+H2    3165
+H3    1884
+H4     404
+H5    7028
+
+Hospital patient distribution:
+hospital
+H1    3664
+H2    2619
+H3    1635
+H4     379
+H5    6526
+
+Class distribution:
+primary_class    CD  HYP    MI  NORM  STTC
+hospital                                  
+H1               57    9  4330    80   127
+H2               30   14    27   124  2970
+H3             1820    2    12    39    11
+H4                1  390     0    11     2
+H5                7    1    10  6989    21
+
+Class proportions:
+primary_class     CD    HYP     MI   NORM   STTC
+hospital                                        
+H1             0.012  0.002  0.941  0.017  0.028
+H2             0.009  0.004  0.009  0.039  0.938
+H3             0.966  0.001  0.006  0.021  0.006
+H4             0.002  0.965  0.000  0.027  0.005
+H5             0.001  0.000  0.001  0.994  0.003
+
+Patient leakage:
+0
+
+Duplicated ECG assignments:
+0
